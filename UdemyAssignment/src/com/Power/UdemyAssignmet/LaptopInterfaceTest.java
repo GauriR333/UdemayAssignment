@@ -10,5 +10,11 @@ public static void main(String[] args) {
 	dell1.click();
 	dell1.Scoll();
 	System.out.println("After DELL");
+	HoNootbook hpn1=new HoNootbook();
+	hpn1.click();
+	System.out.println("After hpnootbook");
+	DellNootbook dn1=new DellNootbook();
+	dn1.click();
+	System.out.println("After dellnootbook");
 }
 }
